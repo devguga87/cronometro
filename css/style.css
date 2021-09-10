@@ -1,0 +1,64 @@
+* {
+  margin:0;
+  padding:0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  background-image: linear-gradient(315deg, #2e3033 0%, #16191d 1234%);
+}
+
+button{
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 96rem;
+  margin:10rem auto;
+  color:#e2e2e2
+}
+
+.relogio {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10rem;
+  text-align: center;
+}
+
+.buttons{
+  text-align: center;
+}
+
+.botao {
+  margin-top:4rem;
+  padding:1.3rem 5rem;
+  font-weight: bold;
+  color:#2e3033;
+  border:0;
+  border-radius: 1rem;
+  transition:transform .3s;
+}
+
+.botao:hover{
+  transform: scale(1.1);
+  background-color: #8b8a8a;
+}
+
+.botao + .botao {
+  margin-left:4rem;
+}
+
+
+
+.paused{
+  color:#fa5959
+}
+
+.initialized {
+  color:#e2e2e2
+}
